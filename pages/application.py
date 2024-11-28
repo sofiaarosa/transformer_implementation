@@ -1,5 +1,4 @@
 import tensorflow as tf
-import tensorflow_text as text
 import streamlit as st
 
 pt_en_translator = tf.saved_model.load('models/saved_models/translator')
